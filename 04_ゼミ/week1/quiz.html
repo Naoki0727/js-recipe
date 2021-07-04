@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>プロ野球は何チームあるでしょうか？</h1>
+    <button id="12-button">12</button>
+    <button id="16-button">16</button>
+    <button id="18-button">18</button>
+    <button id="display"></button>
+
+    <script>
+      const Button12 = document.getElementById("12-button")
+      const Button16 = document.getElementById("16-button")
+      const Button18 = document.getElementById("18-button")
+      const display = document.getElementById("display")
+
+      Button12.onclick = function() {
+        display.textContent = "正解"
+      }
+      Button16.onclick = function() {
+        display.textContent = "不正解"
+      }
+      Button18.onclick = function() {
+        display.textContent = "不正解"
+      }
+    </script>
+  </body>
+</html>
