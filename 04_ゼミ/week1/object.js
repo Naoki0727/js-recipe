@@ -1,4 +1,4 @@
-const naoki = {
+const Naoki = {
   name: "石井尚樹",
   age: 23,
   hobby: ["drinking beer", "watching baseball"],
@@ -9,4 +9,4 @@ const naoki = {
     alert("こんにちは$(this.name)です!!")
   },
 }
-console.log(naoki.age)
+console.log(Naoki.age)
